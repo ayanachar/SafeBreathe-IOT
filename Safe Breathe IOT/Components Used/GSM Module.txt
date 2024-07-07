@@ -1,0 +1,9 @@
+GSM Module: It is a hardware component that
+enables communication between a device and a
+mobile network. It typically consists of a GSM
+modem along with additional components like a
+SIM card slot, antenna, and supporting circuitry.
+The module allows devices to send and
+receive data, make calls, and send SMS
+messages over the GSM network,facilitating
+remote communication in various applications.

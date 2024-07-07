@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AQI and Respiratory Check</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #303641;
+            text-align: center;
+            color: #FFF;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        form {
+            margin: 0 auto;
+            width: 300px;
+            padding: 20px;
+            background-color: #1D1F20;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        input[type="text"], input[type="password"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #373E4A;
+            color: #FFF;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #1D1F20;
+        }
+    </style>
+</head>
+<body>
+
+<h1>AQI and Respiratory Check</h1>
+
+<form action="/form_login" method="post">
+    <label for="username">CO2 LEVEL</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="password">SULPHUR LEVEL</label><br>
+    <input type="text" id="password" name="password"><br>
+    <label for="sulphur_level">CH4 LEVEL</label><br>
+    <input type="text" id="sulphur_levelSulphur Level" name="sulphur_level"><br>
+    <label for="methane_level">AMMONIA LEVEL</label><br>
+    <input type="text" id="methane_level" name="methane_level"><br>
+    <label for="ammonia_level">SMOKE LEVEL</label><br>
+    <input type="text" id="ammonia_level" name="ammonia_level"><br>
+    <label for="co_level">CO Level:</label><br>
+    <input type="text" id="co_level" name="co_level"><br>
+    <input type="submit" value="PREDICTION">
+</form>
+
+<h1>{{info}}</h1>
+
+</body>
+</html>

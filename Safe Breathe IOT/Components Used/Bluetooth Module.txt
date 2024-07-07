@@ -1,0 +1,3 @@
+Bluetooth Module: Enables wireless communication
+between the Arduino and a mobile app, allowing
+users to remotely access real-time air quality data.

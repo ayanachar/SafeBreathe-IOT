@@ -1,0 +1,17 @@
+Each sensor typically requires connections for
+power (Vcc), ground (GND), and signal output
+(analog pin). The MQ135 and MQ9 sensors output
+analog voltage signals proportional to the
+concentration of gases detected. The Bluetooth
+module is connected to the Arduino's serial pins for
+bi-directional communication, enabling data
+transfer to and from the mobile app.
+The Arduino code initializes the sensors and
+Bluetooth module , reads sensor data, and
+formats it for transmission. In case any condition
+is triggered i.e. high alert ,a notification is sent to
+the provided user number using the GS module.
+The code establishes a serial connection with the
+Bluetooth module and sends sensor data in a
+predefined format (e.g., comma-separated values).The Arduino can communicate  without the bluetooth module using usb port or with the Bluetooth module using serial communication protocols (UART). Sensor data is transmitted wirelessly over Bluetooth in real-time to a paired mobile app.
+The mobile app receives and displays air quality data sent by the Arduino. It also provides a user-friendly interface with visualizations such as charts or graphs to present pollutant levels

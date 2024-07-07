@@ -1,0 +1,3 @@
+Acts as the brain of the system,
+responsible for interfacing with sensors, processing
+data, and controlling the Bluetooth module.

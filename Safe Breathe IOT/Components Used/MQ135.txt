@@ -1,0 +1,4 @@
+MQ135 Gas Sensor: Detects a wide range of gases
+such as ammonia, nitrogen oxides, benzene, and
+other volatile organic compounds (VOCs) present in
+the air.
